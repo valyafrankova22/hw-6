@@ -1,0 +1,51 @@
+h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: bolder;
+}
+
+.services {
+     display: flex;
+ }
+
+.company-wrapper {
+    width: var(--content-width);
+    display: flex;
+    margin: 0 auto;
+    padding: 50px 10px;
+}
+
+.left-block,
+.right-block {
+    width: 50%;
+}
+
+.left-block h2{
+    padding-right: 40px;
+}
+.left-block p {
+    width: 500px;
+}
+
+.right-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block {
+    width: 50%;
+    box-sizing: border-box;
+    padding-right: 15px;
+}
+
+#more {
+    margin: 5% auto 5% 0;
+    padding: 10px 10px;
+    width: 40%;
+    text-transform: capitalize;
+    color: red;
+    border: 1px solid red;
+    background-color: transparent;
+    border-radius: 10px;
+}

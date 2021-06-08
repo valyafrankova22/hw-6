@@ -1,0 +1,40 @@
+.feature {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.redline {
+    width: 15%;
+    margin: 0 auto;
+    height: 8px;
+    background-color: red;
+    border-radius: 15px;
+}
+
+.windowsmenu {
+    margin: 50px;
+}
+.menu2 {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 20px;
+    margin: 0;
+    padding-left: 0;
+}
+
+.menu2 a {
+    padding: 1em;
+    display: block;
+    color: black;
+    border-right: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color.3s;
+}
+
+.menu2 a:hover {
+    color: var(--menu-bg-color);
+    background-color: transparent;
+}
